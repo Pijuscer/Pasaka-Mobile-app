@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".penktasPuslapis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="950dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/miskas" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="40dp"
+                    android:background="#73000000"
+                    android:gravity="center"
+                    android:selectAllOnFocus="false"
+                    android:text="—Strazdu brazdu! Strazdu brazdu\nVilke, bėkime nuo strazdo!\nBaisų triukšmą strazdas kelia:\nStrazdas kerta eglę žalią\nIr ketina drožti lazdą…\nKaip sudrausti šitą strazdą?\nVilkas uodegą pabruko:\nNejuokais lazdos pabūgo.\n— Ką daryti?\nKą daryti?\nBėkim šernui pasakyti…"
+                    android:textColor="@color/white"
+                    android:textSize="35sp" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/vilkasgifas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="270dp"
+                    android:src="@drawable/vilkasgifas" />
+
+                <ImageView
+                    android:id="@+id/rodykleDesine"
+                    android:layout_width="188dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="bottom|end"
+                    app:srcCompat="@drawable/rodykle1" />
+
+                <ImageView
+                    android:id="@+id/rodykleKaire"
+                    android:layout_width="188dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="bottom|left"
+                    app:srcCompat="@drawable/rodykle2" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

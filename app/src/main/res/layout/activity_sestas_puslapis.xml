@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sestasPuslapis">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="790dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/miskas" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:selectAllOnFocus="false"
+            android:text="Bėga žvėrys ristele,\nLinksta samanos šile.\nŠernas, gilių prižiaumojęs,\nKriuksi, baloj atsistojęs:\n– Žvėrys, žvėrys, kriu kriu kriu!\nKur jūs bėgate būriu?"
+            android:textColor="@color/white"
+            android:background="#73000000"
+            android:textSize="35sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/sernasgifas"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/sernasgifas2" />
+
+        <ImageView
+            android:id="@+id/rodykleDesine"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@drawable/rodykle1" />
+
+        <ImageView
+            android:id="@+id/rodykleKaire"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|left"
+            app:srcCompat="@drawable/rodykle2" />
+    </FrameLayout>
+</LinearLayout>

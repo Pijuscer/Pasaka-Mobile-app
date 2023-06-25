@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#C5D9AB">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:orientation="horizontal"
+                android:text="Apie narsųjį strazdą"
+                android:textAlignment="center"
+                android:paddingTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="40sp"></TextView>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:fontFamily="sans-serif-black"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:text="Pasaka"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="356dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/strazdas2" />
+
+        <ImageView
+            android:id="@+id/rodykleDesine"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@drawable/rodykle1" />
+    </FrameLayout>
+
+</LinearLayout>

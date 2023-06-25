@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".klausimaiPuslapis"
+    android:background="#C5D9AB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleKlausimai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="50dp"
+                    android:text="Klausimai"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"></TextView>
+
+                <TextView
+                    android:id="@+id/titlePirmasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="1. Kokį medį paukštis kertą?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <EditText
+                    android:id="@+id/tekstasIvedimas1kl"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:hint="Įrašykite savo atsakymą"></EditText>
+
+                <TextView
+                    android:id="@+id/titleAntrasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="2. Kokia paukščio rūšis?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <RadioGroup
+                    android:id="@+id/radioButtonGroup2kl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton2kl1"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Zylė"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2kl2"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Strazdas"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2kl3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Genys"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2kl4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Laukys"
+                        android:textSize="20sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/titleTreciasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="3. Kokie gyvūnai nubėgo šernui pasakyti apie starzdo dainą?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <TextView
+                    android:id="@+id/titleTreciasKl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:text="(Pažymėkite kelis variantus)"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+
+                <CheckBox
+                    android:id="@+id/checkBox1kl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Kiškis"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2kl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Ožka"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3kl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Lapė"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4kl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Vilkas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/titleKetvirtasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="4. Kokiam gyvūnui kiškis nubėgo pasakyti išgirdęs strazdo dainą?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipgroup4kl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip1Kl4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Vilkas"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip2Kl4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Lapė"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip3Kl4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Šernas"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <TextView
+                    android:id="@+id/titlePenktasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="5. Kur šernas kriuksi?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <Spinner
+                    android:id="@+id/spinner5kl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/titleSestasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="6. Ką šernas žiaumojo burnoje?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+                <RadioGroup
+                    android:id="@+id/radioButtonGroup6kl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton6kl1"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Sliekus"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6kl2"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Grybus"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6kl3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Giles"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6kl4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Žėvę"
+                        android:textSize="20sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/titleSeptintasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="7. Už ko stvėrėsi kiškis išgirdęs strazdo dainą?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <EditText
+                    android:id="@+id/tekstasIvedimas7kl"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:hint="Įrašykite savo atsakymą"></EditText>
+
+                <TextView
+                    android:id="@+id/titleAstuntasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="8. Kokie gyvūnai nubėgo vilkui pasakyti apie starzdo dainą?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <TextView
+                    android:id="@+id/titleAstuntasKl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:text="(Pažymėkite kelis variantus)"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+
+                <CheckBox
+                    android:id="@+id/checkBox1Kl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Stirna"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2Kl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Lapė"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3Kl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Kiškis"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/titleDevintasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="9. Kiek iš viso gyvūnų buvo parodyta skirtingose nuotraukose?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipgroup9kl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip1Kl9"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip2Kl9"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip3Kl9"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="6"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip4Kl9"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="7"
+                        android:textAlignment="center"
+                        android:checkable="true"
+                        android:textSize="20sp" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <TextView
+                    android:id="@+id/titleDesimtasKl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:orientation="horizontal"
+                    android:paddingTop="30dp"
+                    android:text="10. Koks gyvūnas buvo dar paminėtas meškos tekste?"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"></TextView>
+
+                <EditText
+                    android:id="@+id/tekstasIvedimas10kl"
+                    android:layout_width="380dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:hint="Įrašykite savo atsakymą"></EditText>
+
+                <Button
+                    android:id="@+id/buttonPateikti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:text="Pateikti" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout >

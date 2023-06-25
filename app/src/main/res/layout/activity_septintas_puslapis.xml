@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".septintasPuslapis"
+    android:background="#C5D9AB">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10pt"
+            android:paddingBottom="10pt"
+            android:layout_gravity="center"
+            android:background="#afd49f"
+            android:text="Darbą atliko\nPijus Černiauskas\nPS-1 grupės studentas"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/rodykleDesine"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@drawable/rodykle1" />
+
+        <ImageView
+            android:id="@+id/rodykleKaire"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|left"
+            app:srcCompat="@drawable/rodykle2" />
+    </FrameLayout>
+
+</LinearLayout>

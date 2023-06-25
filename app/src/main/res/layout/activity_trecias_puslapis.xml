@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".treciasPuslapis">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="790dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/miskas" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:selectAllOnFocus="false"
+            android:text="O pro šalį kiškis eina\nIr išgirsta strazdo dainą.\nKiškis stvėrės už ausų:\n— Iš tikrųjų, kaip baisu!\nKą daryti?\nKą daryti?\nBėgsiu lapei pasakyti."
+            android:textColor="@color/white"
+            android:background="#73000000"
+            android:textSize="35sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/kiskisgifas"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/kiskisgif" />
+
+        <ImageView
+            android:id="@+id/rodykleDesine"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@drawable/rodykle1" />
+
+        <ImageView
+            android:id="@+id/rodykleKaire"
+            android:layout_width="188dp"
+            android:layout_height="116dp"
+            android:layout_gravity="bottom|left"
+            app:srcCompat="@drawable/rodykle2" />
+    </FrameLayout>
+</LinearLayout>

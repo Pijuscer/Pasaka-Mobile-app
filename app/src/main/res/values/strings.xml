@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pasaka</string>
+
+    <string-array name="variantai">
+        <item>Pelkėje</item>
+        <item>Ežere</item>
+        <item>Baloje</item>
+        <item>Dervoje</item>
+    </string-array>
+</resources>
