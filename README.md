@@ -8,6 +8,6 @@ A fairy tale application mobile app has been created. The text is presented on t
 * Click on the moving animal gif and you can hear the sound of the animal.
 * A questionnaire was created on the last page of the fairy tale application.
 * After filling out the questionnaire, the data is read and saved to a text file in JSON format on the phone's SD card (Downloads directory).
-* 
+
 # Technologies used
 The project is created using Android Studio Java.
